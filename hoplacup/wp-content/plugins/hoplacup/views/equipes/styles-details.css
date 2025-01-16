@@ -1,0 +1,71 @@
+/* Style de base du tableau */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 15px;
+}
+
+.table th,
+.table td {
+    vertical-align: middle;
+    margin-bottom: 15px;
+    border: 1px solid black;
+}
+
+.jourHoraire {
+    background-color: #dee2e6;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.nomEquipe {
+    width: 30%;
+    vertical-align: middle;
+    background-color: var(--rouge);
+    color: white;
+    font-weight: 900;
+    border: 1px solid black;
+    border-top: none;
+}
+
+.scoreEquipe {
+    width: 5%;
+    background-color: #212529;
+    font-size: 1em;
+    color: white;
+    font-weight: 900;
+    border: 1px solid black;
+    border-top: none;
+}
+
+.separateur1 {
+    width: 5%;
+    background-color: #212529;
+    color: white;
+    font-weight: 900;
+    border: 1px solid black;
+    border-top: none;
+}
+
+.logoEquipe {
+    background-color: white;
+}
+
+td picture {
+    display: flex;
+    object-fit: contain;
+    margin: auto;
+    width: 30px;
+    height: 30px;
+}
+
+.logoEquipe picture img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.red-text {
+    color: #CD0000;
+}
+

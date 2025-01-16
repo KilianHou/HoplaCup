@@ -1,0 +1,142 @@
+h1 {
+    margin-bottom: 15px;
+}
+
+
+section#tournois {
+    padding: 3rem 0;
+    background-color: aqua;
+    min-height: 500px;
+    display: flex;
+    background: url(https://www.wdtn.com/wp-content/uploads/sites/45/2021/05/swimming-pool-water-generic.jpg?w=1280) center center no-repeat;
+    background-size: cover;
+}
+
+#categories-tournoi {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 0;
+    list-style-type: none;
+    text-align: center;
+    align-self: center;
+}
+
+#categories-tournoi li {
+    margin: 0.5rem;
+    flex: 1 1 45%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+#categories-tournoi a {
+    display: block;
+    width: 100%;
+    max-width: 270px;
+    padding: 2rem;
+    text-decoration: none;
+    font-size: 3rem;
+    font-family: 'Anton', sans-serif;
+    color: #fff;
+    background: var(--bleu);
+}
+
+.tournoi {
+    width: 80%;
+    border-radius: 10px;
+    border: solid black 2px;
+    box-shadow: black 10px 10px;
+}
+
+@media (max-width: 768px) {
+    #categories-tournoi {
+        flex-wrap: wrap;
+    }
+
+    #categories-tournoi li {
+        flex-basis: calc(100% - 4rem);
+        max-width: calc(100% - 4rem);
+    }
+
+    .tournoi {
+        width: 50%;
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+@keyframes slide {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+.logos {
+    overflow: hidden;
+    padding: 40px 0;
+    background: white;
+    white-space: nowrap;
+    position: relative;
+}
+
+.logos:before,
+.logos:after {
+    position: absolute;
+    top: 0;
+    width: 250px;
+    height: 100%;
+    content: "";
+    z-index: 2;
+}
+
+.logos:before {
+    left: 0;
+    background: linear-gradient(to left, rgba(255, 255, 255, 0), white);
+
+}
+
+.logos:after {
+    right: 0;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0), white);
+
+}
+
+.logos:hover .logos-slide {
+    animation-play-state: paused;
+}
+
+.logos-slide {
+    display: inline-block;
+    animation: 35s slide infinite linear;
+}
+
+.logos-slide img {
+    height: 50px;
+    margin: 0 20px;
+}
+
+@media (max-width: 576px) {
+    #categories-tournoi li {
+        min-width: 0;
+    }
+
+    #categories-tournoi a {
+        font-size: 1.4rem;
+        width: 50%;
+    }
+
+    .tournoi {
+        width: 50%;
+    }
+}

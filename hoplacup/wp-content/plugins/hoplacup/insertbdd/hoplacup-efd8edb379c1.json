@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "hoplacup",
+  "private_key_id": "efd8edb379c12716fd8db89a388457e5bd403626",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCm/GEXi2bukOWb\naxkx025ZQVgXiAjT7fR/p98IO/uGJe5FIx66zXqQDlGdjjWGbhaq1KP18Ni9vuKc\nx3ODQjvdhZcmwzvVWDtKJrBG2JoqvYsBavzU/w73ijt/OkCPfplwo6jcvfB9xk9E\n0G8S8wDcPZW6FSp7+FgDkrrPvGC1ShFjybDOsEm1rlYv2xlmevz69He/hEIBH+hK\nxic3yaAy5VEj+MFUVPnRaZwknY6hfEjWse4frp06LrlEB1g1ZG3gyf0cQJ4rEdpL\nR/nGHLhLOJV72diBt8Pju236OKNFt+PECNbtC+aACuneuNKUJ8Qf3pj9tghsvcYg\nmlAD60v1AgMBAAECggEAHd780VTnE1sJL82vQpoDXeUSCJeVmK+y8pkJjTQJsPwd\nDPIU3669M4LUN76GNaeA14tVTzwH0Z2RdSE6uSrCgcSRfuYi0G3JoWCdXPcHUQj6\nEkVcuA9uUnrAXOiDPwgTE7K7FM3HdQBiErnEfNvKdhtwKsr5gBazS+RWFa4pkJRG\nqZbMuxsrwVAkIhTyOX7YO2hPx38cTFt89I3T4PrUGhxY11tIXFFPex1Co1FR/E/M\nSyqIr4JlYEHQC8eh0ojcXAbuZq05gPDYWE5YD4h6uKPtTSKhqi6LOKSdTgsASqH/\ncU5Y79u8c/7mU6fbu0ZBQ2+TEDCd0m43bHzIes02mwKBgQDfYkDWs/bU/0Q2dIPU\nRDhH/qhBZ2nGjN/FWirIPGMs6h82sa9r7QOaXDD6BBU3narBSJ7aW+mPjXO1d9m0\nlRYdOla+Wfeow/nuDMPGL0W0B16KJolKqxZ60OEnrfYTpRIhhsq7pH1gCn9lHqt1\ne9eM03v8XFYKRmTGK00+Zxu/SwKBgQC/Xg57+CjQZ3/wlPu/JX2pFw6vFQ6TLh3N\nfifeUJRs3ZzHYEH7G4fWZFYbZ7s5I8Uc+M3ZDnAUSa/h7VrcO894H0ERBSJ3xhir\ngbQBJk4CTt1w7RcxqOZeBYwAu/2YGN9y91Zy7jnyG6LxKsjuOm7icAlrtfwUZm/Y\nDvnqi5PZvwKBgDgcaAkGX4QVMr8y+UJCeJitAPqczVcQX80k3wY5FPhdPsXwUA4e\nFP+bFLpYeDPmKNQwN6bF258xetUka80OfeWNl+hslOcRgyAmmK6ZhTq5dyfgki/t\nVdI30baz3dIFbs55G0eTA+Mx/9oYoBz8pKI9JTG4x+wAzqNwkRCRuciNAoGAYgMs\na/YYAVVhQ7kqjyYGjDoQ/T9Nrbgq73qztLuUqYV/rOXyJUhedEIDkBm63HMjm8ka\ntRcd9GYhPReyN6YyhpWLX8o/cxT0wbK2nPgfcDMwW4wzGu4kvvccU6v1IJdsqpdf\noZG9//CDrf151/n5nORBDvewWkp08jYJbkV6vkUCgYEAyVRNWOSR8dMpnuhey9Ck\ndb6n0ZZUbE5UKpSdMzGEAvTYhjv+RMh/wsWa6m9W/kihfPLgK10cEJoQ6wyxe2n3\nvNo8o/uTC37Xzc1xiYyLM+s96H0UkBz+ELwOVmgSO6/5I+gh+6uCSqVVEZT3nMUN\neK+11XrzQuf40QHjFyKFA/k=\n-----END PRIVATE KEY-----\n",
+  "client_email": "hoplacup@hoplacup.iam.gserviceaccount.com",
+  "client_id": "100666801434559805982",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/hoplacup%40hoplacup.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

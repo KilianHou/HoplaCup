@@ -1,0 +1,348 @@
+:root {
+    --rouge: #CD0000;
+    --rouge-sombre: #970100;
+    --bleu: #101F8D;
+    --footer: #1C0D0D;
+}
+
+.rouge {
+    color: var(--rouge);
+}
+
+.rouge-sombre {
+    color: var(--rouge-sombre);
+}
+
+.bleu {
+    color: var(--bleu);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans', sans-serif;
+}
+
+main {
+    text-align: center;
+}
+
+main ul {
+    text-align: left;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Anton', serif;
+    font-weight: normal;
+}
+
+.container {
+    max-width: 1140px;
+    margin: auto;
+}
+
+main.container {
+    min-height: 55vh;
+}
+
+img.logo {
+    max-width: 200px;
+    max-height: 200px;
+}
+
+/***************************
+Breadcrumbs
+*/
+#hp-breadcrumbs {
+    margin-top: 10px;
+    font-size: 0.85rem;
+    height: 1rem;
+    line-height: 1rem;
+    flex-grow: 1;
+}
+
+#hp-breadcrumbs * {
+    vertical-align: middle;
+}
+
+#hp-breadcrumbs>span {
+    display: inline-block;
+}
+
+#hp-breadcrumbs svg {
+    display: inline-block;
+    vertical-align: middle;
+    width: 1.25em;
+    height: 1.25em;
+}
+
+#hp-breadcrumbs ul {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+#hp-breadcrumbs li {
+    display: inline-block;
+}
+
+#hp-breadcrumbs li:after {
+    content: '>';
+}
+
+#hp-breadcrumbs li:last-child:after {
+    content: '';
+}
+
+#hp-breadcrumbs a {
+    color: var(--bleu);
+}
+
+
+
+/***************************
+Switch division
+*/
+#lang-switch {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#lang-switch ul {
+    margin: 0;
+    width: fit-content;
+    list-style-type: none;
+    padding: 0.15rem;
+    font-size: 0.85rem;
+}
+
+#lang-switch li {
+    display: inline-block;
+    margin: 0 0.5rem 0;
+}
+
+#lang-switch a {
+    color: #ffffff93;
+    text-decoration: none;
+}
+
+#lang-switch a:hover {
+    text-decoration: underline;
+}
+
+#lang-switch .active a {
+    color: #fff;
+    font-weight: bold;
+}
+
+/***************************
+Switch division
+*/
+#switch-division {
+    font-family: 'Anton', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+    justify-content: space-between;
+
+}
+
+#switch-division ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-align: right;
+    font-size: 1rem;
+    user-select: none;
+    font-size: 0;
+}
+
+#switch-division li {
+    display: inline-block;
+    font-size: 1.5rem;
+}
+
+#switch-division li.division-active,
+#switch-division a {
+    padding: 0.25rem 0.75rem;
+    border-radius: 7px;
+}
+
+#switch-division a {
+    display: block;
+    text-decoration: underline;
+    font-weight: 400;
+    color: var(--bleu);
+}
+
+#switch-division li.division-active a {
+    text-decoration: none;
+}
+
+#switch-division a:hover {
+    text-decoration: underline;
+}
+
+#switch-division li.division-active {
+    background-color: var(--bleu);
+    color: #fff;
+    border: solid white 2px;
+    border-radius: 10px;
+    box-shadow: black 5px 5px;
+}
+
+.icon-container {
+    display: flex;
+    align-items: center;
+}
+
+.lang-label {
+    margin-left: 5px;
+}
+
+.icon {
+    width: 48px;
+    height: 48px;
+}
+
+.icon-container:not(.active) img {
+    filter: grayscale(100%);
+}
+
+.icon-container.active img {
+    filter: none;
+}
+
+
+/*********************************
+Tables
+*/
+table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 768px;
+    margin: auto;
+    text-align: center;
+}
+
+table thead tr {
+    background: var(--rouge);
+    border: 1px solid var(--rouge);
+    color: #fff;
+}
+
+table th,
+table td {
+    padding: 0.75rem 0;
+}
+
+table th.jour,
+table td.jour {
+    width: 40px;
+}
+
+table td.horaire,
+table th.horaire {
+    width: 50px;
+}
+
+table th.terrain,
+table td.terrain {
+    width: 50px;
+}
+
+table th.match,
+table td.match {
+    text-align: center;
+}
+
+table th.separateur,
+table td.separateur {
+    width: 10px;
+}
+
+table th.equipe,
+table td.equipe {
+    max-width: 100px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+table th.score,
+table td.score {
+    width: 25px;
+}
+
+
+table tbody tr {
+    border: 1px solid #000;
+    border-top: 0;
+}
+
+table tbody tr:nth-child(even) {
+    background: #eee;
+}
+
+/*********************************
+Footer
+*/
+.logos-footer {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    background: white;
+    border-radius: 15px;
+    margin-inline: 15px;
+    margin: 15px;
+    padding: 15px;
+}
+
+.logos-institutionnels {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    margin-top: 50px;
+}
+
+
+
+@media (max-width: 1200px) {}
+
+
+@media (max-width: 992px) {}
+
+
+@media (max-width: 768px) {}
+
+
+@media (max-width: 576px) {
+
+    #navigation {
+        display: block;
+    }
+
+    #hp-breadcrumbs {
+        margin-bottom: 1rem;
+    }
+
+    #hp-breadcrumbs>span {
+        display: none;
+    }
+
+}
+.team-logo {
+    width: 1em;
+    height: auto;
+}

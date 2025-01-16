@@ -1,0 +1,67 @@
+.lien-etape-container {
+    text-align: right;
+}
+
+.lien-etape {
+    display: inline-block;
+    margin-right: 1%;
+    margin-top: 2%;
+    background-color: #2271b1;
+    border-radius: 5px;
+}
+
+.lien-etape a {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    font-size: 15px;
+    padding: 10px;
+}
+
+.lien-etape-prev-container {
+    text-align: left;
+}
+
+.lien-etape-prev {
+    margin-top: 10px;
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    text-align: center;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 500px;
+    width: 90%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.edit-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 25px;
+    padding: 5px;
+}

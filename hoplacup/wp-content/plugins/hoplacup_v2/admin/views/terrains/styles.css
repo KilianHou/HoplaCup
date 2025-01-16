@@ -1,0 +1,39 @@
+#infoModal {
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+}
+
+#infoModal > div {
+    background-color: white;
+    margin: 10% auto;
+    padding: 20px;
+    width: 80%;
+    max-width: 600px;
+}
+
+.action-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 30px;
+    padding: 5px;
+    color: #0073aa;
+}
+
+.action-btn:hover {
+    color: #005a85;
+}
+
+.delete {
+    color: #d63638;
+}
+
+.delete:hover {
+    color: #ff2225;
+}

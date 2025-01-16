@@ -1,0 +1,29 @@
+#divisions-list {
+    max-width: 530px;
+}
+
+.action-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 30px;
+    padding: 5px;
+    color: #0073aa;
+}
+
+.action-btn:hover {
+    color: #005a85;
+}
+
+.delete {
+    color: #d63638;
+}
+
+.btn {
+    font-size: 25px;
+    margin: 5px 0;
+}
+
+.delete:hover {
+    color: #ff2225;
+}

@@ -1,0 +1,193 @@
+main.container {
+    padding-bottom: 30px;
+}
+
+
+
+.select-wrapper {
+    position: relative;
+    display: inline-block;
+    width: 200px;
+    font-size: 26px;
+}
+
+.select-jour {
+    width: 100%;
+    height: 60px;
+    background: #CD0000;
+    box-shadow: 4px 4px 2px black;
+    border-radius: 6px;
+    color: white;
+    text-align: left;
+    padding: 10px 35px 10px 15px;
+    font-weight: bold;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    font-size: 1.5rem;
+}
+
+.select-jour option {
+    background-color: #000000;
+}
+
+.select-arrow {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+    pointer-events: none;
+}
+
+.arrow {
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+.collapsed>.arrow {
+    transform: rotate(-180deg);
+}
+
+.session-title {
+    position: relative;
+    cursor: pointer;
+    padding: 10px;
+    background-color: #f8f9fa;
+    border: none;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease-in-out;
+    text-align: left;
+}
+
+.session-title:after {
+    content: '';
+    display: block;
+    position: absolute;
+    right: 12px;
+    top: 14px;
+    width: 20px;
+    height: 20px;
+    border-right: 4px solid #000;
+    border-bottom: 4px solid #000;
+    transform-origin: 50%;
+    transform: rotate(45deg);
+    transition: all 0.1s ease-out;
+}
+
+.session-title.deployed:after {
+    transform: rotate(-135deg);
+    top: 23px;
+}
+
+.session-title:hover {
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.session-title {
+    width: 200px;
+    margin: 20px auto;
+}
+
+.collapse {
+    margin-top: 10px;
+}
+
+.collapsable {
+    height: 0;
+    overflow: hidden;
+    transition: height 0.5s linear;
+}
+
+.collapsable.expanded {
+    height: unset;
+}
+
+
+.search-container {
+    position: relative;
+    width: fit-content;
+    margin: auto;
+}
+
+.search-container input,
+.search-container svg {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.search-container input {
+    font-size: 1.25rem;
+    padding: 0.75rem 45px 0.75rem 0.75rem;
+    margin-bottom: 5px;
+    border-radius: 60px;
+    border: 1px solid #ccc;
+}
+
+.search-container svg {
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    width: 30px;
+    height: 30px;
+    transform: translateY(-50%)
+}
+
+.jourHoraire {
+    color: #212529;
+    background-color: #dee2e6;
+    border: solid black 1px;
+}
+
+.table td,
+.table th {
+    vertical-align: middle;
+    margin-bottom: 15px;
+
+}
+
+.nomEquipe {
+    width: 30%;
+    vertical-align: middle;
+    background-color: var(--rouge);
+    color: white;
+    font-weight: 900;
+
+}
+
+.scoreEquipe {
+    width: 5%;
+    background-color: #212529;
+    font-size: 1em;
+    color: white;
+    font-weight: 900
+}
+
+.separateur1 {
+    width: 5%;
+    background-color: #212529;
+    color: white;
+    font-weight: 900;
+}
+
+.logoEquipe {
+    background-color: white;
+}
+
+td picture {
+    display: flex;
+    object-fit: contain;
+    margin: auto;
+    width: 30px;
+    height: 30px;
+}
+
+table {
+    margin-bottom: 15px;
+}
+
+.logoEquipe picture img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}

@@ -1,0 +1,156 @@
+
+p.poule-bandeau {
+    width:100%;height:40px;
+}
+
+span.poule-bandeau-info {
+    float:left;position:relative;left:60px;padding:10px;background-color:#101F8D;color:#FFF;font-weight:900;
+}
+
+p.poule-titre {
+    font-size:32px;font-weight:900;text-align:center;
+}
+
+div.poule-center {
+    display:flex;justify-content:center;
+}
+
+select.poule-select {
+    position:relative;
+    left:0px;
+    padding:10px;
+    font-size:32px;
+    font-weight:900;
+    margin-bottom:20px;
+    width: 220px;
+    height: 60px;
+    background: #CD0000;
+    box-shadow: 4px 4px 2px black;
+    border-radius: 6px;
+    color: white;
+    text-align: left;
+    padding: 10px 35px 10px 15px;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+select.poule-select option {
+    background-color: #000000;
+}
+
+div.poule-espace {
+    height:100px;
+}
+
+.select-arrow {
+    position: relative;
+    top:52px;
+    transform: translateY(-50%);
+    color: white;
+    pointer-events: none;
+    font-size: 32px;
+    margin-left: -50px;
+}
+
+.fa-chevron-down::before {
+    content: "\f078";
+}
+
+.jourHoraire{
+    color: #212529;
+    background-color: #dee2e6;
+    border: solid black 1px;
+
+
+}
+.table td, .table th {
+    vertical-align: middle;
+    margin-bottom: 15px;
+
+}
+
+.poule-table-header-row {
+    max-width: 5rem;
+}
+
+
+.nomEquipe{
+    width: 30%;
+    vertical-align: middle;
+    background-color: var(--rouge);
+    color: white;
+    font-weight: 900;
+}
+.scoreEquipe{
+    width: 5%;
+    background-color: #212529;
+    font-size: 1em;
+    color: white;
+    font-weight: 900
+}
+.separateur1{
+    width: 5%;
+    background-color: #212529;
+    color: white;
+    font-weight: 900;
+}
+.logoEquipe{
+    background-color: white;
+}
+td picture {
+    display: flex;
+    object-fit: contain;
+    margin: auto;
+    width: 30px;
+    height: 30px;
+}
+
+table {
+    margin-bottom: 15px;
+}
+
+.logoEquipe picture img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+
+@media only screen and (max-width: 1200px) {}
+
+@media only screen and (max-width: 1000px) {
+
+    p.poule-titre{
+        font-size:1.2em;
+    }
+    select.poule-select {
+        font-size: 1.2em;
+        width: 160px;
+   }
+
+   .container {
+        margin: 0px;
+   }
+    
+}
+
+@media only screen and (max-width: 768px) {
+    
+    
+}
+
+@media only screen and (max-width: 700px) {}
+
+@media only screen and (max-width: 600px) {
+    
+    
+}
+
+@media only screen and (max-width: 450px) {}
+
+@media only screen and (max-width: 576px) {}
+
+@media only screen and (max-width: 400px) {}
+
+@media only screen and (max-width: 350px) {}

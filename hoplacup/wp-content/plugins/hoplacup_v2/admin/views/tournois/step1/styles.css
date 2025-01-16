@@ -1,0 +1,355 @@
+/* Global */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+h3{
+    text-align: center;
+    color: #333;
+    font-size: 2em;
+}
+
+.add-poule-form{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Poules */
+.poules-container {
+    margin: 20px auto;
+    width: 80%;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.poules-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.poule {
+    width: 200px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    text-align: center;
+    height: auto;
+}
+
+.poule h3 {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.drop-zone {
+    display: flex;
+    flex-direction: column;
+    min-height: 100px;
+    height: auto;
+    border: 2px dashed #ccc;
+    border-radius: 6px;
+    background-color: #f8f8f8;
+    align-items: center;
+    justify-content: center;
+    color: #aaa;
+    font-size: 14px;
+}
+
+/* Conteneur principal de la liste */
+.team-list {
+    margin: 20px 0 0 0;
+    font-family: Arial, sans-serif;
+    min-height: 150px;
+    border: 2px dashed #ccc;
+    border-radius: 6px;
+    background-color: #f8f8f8;
+}
+
+/* Style du titre principal */
+h2 {
+    text-align: center;
+    color: #333;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+/* Style des étiquettes pour chaque équipe */
+.team-list .equipe{
+    display: inline-block;
+    background-color: #f1f1f1;
+    color: #333;
+    padding: 15px 20px;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Effet au survol des badges */
+.team-list .equipe:hover {
+    background-color: #a8a8a8;
+    color: #fff;
+    cursor: pointer;
+}
+
+.drop-zone .equipe {
+    display: inline-block;
+    background-color: #f1f1f1;
+    color: #333;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 3px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    margin: 5px;
+}
+
+.drop-zone .equipe:hover {
+    background-color: #a8a8a8;
+    color: #fff;
+    cursor: pointer;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.pagination form {
+    display: flex;
+    gap: 5px;
+}
+
+.pagination button {
+    background-color: #0073aa;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.pagination button:hover {
+    background-color: #005177;
+}
+
+.pagination button.active {
+    background-color: #005177;
+    font-weight: bold;
+}
+
+.pagination span {
+    padding: 10px 15px;
+    color: #333;
+}
+
+
+
+.form-table {
+   display: block;
+   background: #fff;
+   padding: 10px 30px;
+   margin-bottom: 1%;
+   border-radius: 8px;
+   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+   width: 79%;
+   margin: auto;
+   margin-top: 20px
+}
+.form-table h3 {
+    padding-top: 0px;
+    margin: 5px 0px;
+}
+.form-group {
+   display: inline-block;
+   margin: 10px 20px 20px 20px;
+   font-weight: 500;
+}
+
+.form-group input {
+   border: #2271b1;
+   font-weight: 800;
+   font-size: larger;
+}
+
+label {
+   margin-right: 5px;
+}
+
+.span-display{
+    display: flex;
+}
+
+.win {
+    color: #19a83a !important;
+    border: solid 1px #19a83a !important;
+}
+.draw {
+    color: #c9ab00 !important;
+    border: solid 1px #c9ab00 !important;
+}
+.loss {
+    color: #ce1a2c !important;
+    border: solid 1px #ce1a2c !important;
+}
+
+.save-btn {
+    font-size: 18px !important;
+    color: #2271b1;
+    border: none;
+    background-color: #fff;
+    font-weight: 600;
+    justify-content: center;
+}
+
+.save-btn:hover {
+    cursor: pointer;
+    color: #288de0;
+}
+
+.edit-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 25px;
+    color: #0073aa;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 2px;
+    max-width: 15%;
+}
+
+.delete-btn {
+    color: #d63638;
+}
+
+.delete-btn:hover {
+    color: #ff2225;
+}
+
+.action-btn:hover {
+    color: #005a85;
+}
+
+.NomPoule {
+    width: 72%;
+    margin: 5px 0px;
+    border: solid 0.5px #dedede !important;
+    text-align: center;
+}
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 500px;
+    width: 90%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.phase-initiale{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    gap:10px;
+}
+
+@media screen and (max-width: 768px) {
+    .pointsForm {
+        flex-direction: column;
+    }
+}
+
+.lien-etape-container {
+    text-align: right;
+}
+
+.lien-etape {
+    display: inline-block;
+    margin-right: 9%;
+    background-color: #2271b1;
+    border-radius: 5px;
+}
+
+.lien-etape a {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    font-size: 15px;
+    padding: 10px;
+}
+
+.terrain-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.terrain {
+    background-color: #f9f9f9;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.terrain-btn {
+    font-size: 18px;
+    margin: 0 5px ;
+}
+
+.date_container {
+    text-align: center;
+}
+.date {
+    margin: 0 2%;
+}
+.date_select {
+    border: solid 1px #0073aa !important;
+    color: #0073aa !important;
+}

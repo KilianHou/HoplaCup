@@ -1,0 +1,118 @@
+.etape_prev {
+    margin: 10px 0px;
+    font-weight: 600;
+}
+
+/* Conteneur des onglets */
+.tabs-filters-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.tabs {
+    flex: 1;
+}
+
+.tab-links {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.tab-links li {
+    margin-right: 10px;
+}
+
+.tab-links li a {
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #0073aa;
+    color: #fff;
+    border-radius: 4px;
+}
+
+.tab-links li.active a {
+    background-color: #005177;
+}
+
+.filters {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.filters select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    min-width: 150px;
+}
+
+/* Contenu des onglets */
+.tab-content {
+    border: 1px solid #ddd;
+    padding: 20px;
+    background-color: #fff;
+    border-top: none;
+    margin-top: -1px;
+}
+
+.tab-content .tab {
+    display: none;
+    animation: fadeIn 0.3s ease-in-out;
+}
+
+.tab-content .tab.active {
+    display: block;
+}
+
+/* Animation de fondu */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.action-btn {
+    background: none;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 30px;
+    padding: 5px;
+    color: #0073aa;
+}
+
+.action-btn:hover {
+    color: #005a85;
+}
+
+.lien-etape-container {
+    text-align: right;
+}
+
+.lien-etape {
+    display: inline-block;
+    margin-right: 1%;
+    margin-top: 2%;
+    background-color: #2271b1;
+    border-radius: 5px;
+}
+
+.lien-etape a {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    font-size: 15px;
+    padding: 10px;
+}

@@ -1,0 +1,233 @@
+.horaire1 {
+    width: 15%;
+}
+
+.terrain1 {
+    width: 10%;
+}
+
+.equipe1 {
+    width: 30%;
+}
+
+.separateur1 {
+    width: 5%;
+}
+
+.equipe1 {
+    width: 30%;
+}
+
+/*
+body{
+    font-size: 1em;
+}*/
+/*
+tr{
+    font-size: 0.8em;
+}*/
+td {
+    color: #0c0c0c;
+}
+
+.consulterprogramme {
+    color: #0c0c0c;
+}
+
+.voirequipe {
+    background-color: var(--rouge);
+    padding: 3px 15px 3px 15px;
+    color: white;
+    border: solid black 1px;
+    border-radius: 10px;
+    box-shadow: 5px 5px black;
+}
+
+.schedule-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.day-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #ECECEC;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align: center;
+    width: 90%;
+}
+
+.planning {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 100%;
+    width: 70%;
+}
+
+.calendar {
+    height: 100%;
+    width: 30%;
+}
+
+.day-card img {
+    max-width: 100%;
+    height: auto;
+    margin-right: 10px;
+    object-fit: contain;
+    object-position: center;
+}
+
+.day-card h2 {
+    color: #03008C;
+    font-size: 2em;
+    margin: 10px 0;
+}
+
+.day-card .phase {
+    color: #03008C;
+    font-weight: bold;
+}
+
+.day-card .btn {
+    background-color: #03008C;
+    color: white;
+    padding: 10px 15px;
+    margin-top: 15px;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+td picture {
+    display: flex;
+    object-fit: contain;
+    margin: auto;
+    width: 30px;
+    height: 30px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+@keyframes slide {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+.logos {
+    overflow: hidden;
+    padding: 60px 0;
+    background: white;
+    white-space: nowrap;
+    position: relative;
+}
+
+.logos:before,
+.logos:after {
+    position: absolute;
+    top: 0;
+    width: 250px;
+    height: 100%;
+    content: "";
+    z-index: 2;
+}
+
+.logos:before {
+    left: 0;
+    background: linear-gradient(to left, rgba(255, 255, 255, 0), white);
+
+}
+
+.logos:after {
+    right: 0;
+    background: linear-gradient(to right, rgba(255, 255, 255, 0), white);
+
+}
+
+.logos:hover .logos-slide {
+    animation-play-state: paused;
+}
+
+.logos-slide {
+    display: inline-block;
+    animation: 35s slide infinite linear;
+}
+
+.logos-slide img {
+    height: 50px;
+    margin: 0 40px;
+}
+
+table {
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+a {
+    color: white;
+}
+
+.jourHoraire {
+    color: #212529;
+    background-color: #dee2e6;
+    border: solid black 1px;
+
+
+}
+
+.logoEquipe {
+    background-color: white;
+}
+
+td picture {
+    display: flex;
+    object-fit: contain;
+    margin: auto;
+    width: 30px;
+    height: 30px;
+}
+
+table {
+    margin-bottom: 15px;
+}
+
+.separateur1 {
+    width: 5%;
+    background-color: #212529;
+    color: white;
+    font-weight: 900;
+}
+
+.nomEquipe {
+    width: 30%;
+    vertical-align: middle;
+    background-color: var(--rouge);
+    color: white;
+    font-weight: 900;
+
+}
+
+.scoreEquipe {
+    width: 5%;
+    background-color: #212529;
+    font-size: 1em;
+    color: white;
+    font-weight: 900
+}

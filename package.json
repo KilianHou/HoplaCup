@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "googleapis": "^134.0.0",
+    "googleapis-common": "^7.1.0"
+  }
+}
